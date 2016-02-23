@@ -90,3 +90,8 @@ a {
 .gridlover-grid body {
   box-shadow: 1px 0px 0px hsla(200, 100%, 50%, .3), -1px 0px 0px hsla(200, 100%, 50%, .3);
 }
+
+#resize{
+  width: 500px;
+  height: auto;
+}
