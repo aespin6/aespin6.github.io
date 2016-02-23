@@ -1,0 +1,20 @@
+body {
+  font-size: 20px;
+  font-style: normal;
+  font-family: 'Source Sans Pro'; Helvetica; Arial; sans-serif;
+  color: black;
+}
+
+/* get Source Sans Pro from google fonts(done)*/
+
+.arlene h1{
+  font-size: 68px;
+  color: blue;
+  font-family: : 'Montserrat'; Helvetica; Arial; sans-serif;
+
+}
+/* get montserrat from google fonts(done)*/
+
+.sites-list li{
+  list-style: none
+}
