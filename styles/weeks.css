@@ -7,17 +7,11 @@ body {
 
 }
 
-
-
 img {
-  width: 300px;
+  height: 700px;
   margin: 0;
   padding: 0;
 }
-
-/* get Source Sans Pro from google fonts(done)*/
-
-
 
 .container{
   width:80%;
@@ -27,11 +21,29 @@ img {
 
 
 
-.sites-list li{
-  list-style: none
+
+.center-home{
+  text-align: center;
 }
-
-
+.center-home a{
+  font-size: 23px;
+  color: #292B27;
+  text-decoration: none;
+  font-family: 'Source Sans Pro'; Helvectica; Arial; sans-serif;
+  display: inline-block;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border-style: solid;
+  border-color: white;
+  border-width: 2px;
+  padding: 5px;
+  text-transform: uppercase;
+}
+.center-home a:active,
+.center-home a:hover{
+  color: #328E99;
+  background-color: white;
+}
 
 
 
@@ -56,41 +68,20 @@ header p{
   font-size: 30px;
   color: #292B27;
   font-family: 'Source Sans Pro'; Helvectica; Arial; sans-serif;
-
 }
-header a{
-  font-size: 23px;
-  color: #292B27;
+
+
+
+
+
+
+.link a{
+  text-transform: uppercase;
   text-decoration: none;
-  font-family: 'Source Sans Pro'; Helvectica; Arial; sans-serif;
-  display: inline-block;
-  margin-bottom: 100px;
-  margin-top: 20px;
-  border-bottom: 2px solid transparent;
+  color:#FFFAF9;
+  font-size: 23px;
 }
-header a:active,
-header a:hover{
-  color: #328E99;
+.link a:active,
+.link a:hover{
   border-bottom: 2px solid white;
-}
-
-/* get montserrat from google fonts(done)*/
-
-
-.row{
-  overflow: hidden;
-
-}
-
-.row+.row{
-  margin-top: 10px;
-
-}
-
-.col{
-  width: 33.33%;
-  padding-right: 3px;
-  float: left;
-  box-sizing: border-box;
-
 }
